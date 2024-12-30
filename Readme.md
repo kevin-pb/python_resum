@@ -10,6 +10,7 @@ The intigers is te first type of data, this type of data covers, hows the names 
 1-Sum:    
 ```python
 print(45 + 89)
+#Result: 
 ```
 
 1-Subtraction:    
@@ -52,22 +53,22 @@ The string are the data type referent to de texts.
 
 1-Concatenation:    
 ```python
-print(45 % 89)
+print("This is a string" + "String")
 ```
 
-1-Rest:    
+1-All in :    
 ```python
-print(45 % 89)
+print("in".upper())
 ```
 
-1-Rest:    
+1-All in :    
 ```python
-print(45 % 89)
+print("in".lower())
 ```
 
-1-Rest:    
+1-Is numeric:    
 ```python
-print(45 % 89)
+print("45".isnumeric())
 ```
 
 1-Rest:    
