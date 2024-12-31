@@ -1,11 +1,11 @@
 # Python resume
 
-### 1-Data type
+## 1-Data type
 
-#### Integer
+### Integer
 The integers are the first type of data, this type of data covers the Integer numbers. The negative and positive numbers
 
-##### Operations:
+#### Operations:
 
 1-Sum:    
 ```python
@@ -51,11 +51,11 @@ print(45 % 89)
 
 The Integers can be use to some numerics operations.
 
-#### String
+### String
 
 The string are the data type referent to de texts.
 
-##### Operations:
+#### Operations:
 
 1-Concatenation:    
 ```python
@@ -97,11 +97,11 @@ print("This is a string".replace("i", "o"))
 
 This funtion replace the the frist character that is introduced by the sencon character introduced in all the string.
 
-#### List
+### List
 
 Lists are a type of data that allows you to organize the storage of different types of data separated by commas (the data can include other lists)
 
-##### Operations
+#### Operations
 
 1-Agregate:    
 ```python
@@ -156,11 +156,11 @@ list1.remove("This is a string")
 
 This function eliminate the first coincidence of the value that you want to eliminate
 
-#### Tuples
+### Tuples
 
 This is a data type similar to the list but immutable
 
-##### Operations
+#### Operations
 
 1-Union:
 
@@ -200,11 +200,11 @@ print(tuple1.index(3))
 #Result: 1
 ```
 
-#### Dictionaries
+### Dictionaries
 
 Dictionaries are data that are primarily characterized by key-value structures.
 
-##### Operations
+#### Operations
 
 1-Replace values:
 ```python
@@ -247,3 +247,28 @@ del dictionary["key3"]
 print(dictionary)
 #Result: {'key1': 'value1', 'key2': 'value2'}
 ```
+
+### Float
+
+Floats are a data type that includes numbers with decimals, positive and negative
+
+#### Operations
+
+1-Separation of integer and decimal parts
+
+```python
+import math
+math.modf(5.75)  
+# Result: (0.75, 5.0)
+```
+
+Returns a tuple containing the fractional and integer parts of a floating point number
+
+2-Round
+
+```python
+round(5.6789, 2)  
+# Resultado: 5.68
+``` 
+
+#### Info: floats have the operations of the integers too.
