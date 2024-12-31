@@ -53,7 +53,7 @@ The Integers can be use to some numerics operations.
 
 ### String
 
-The string are the data type referent to de texts.
+The string are the data type referent to the texts.
 
 #### Operations:
 
