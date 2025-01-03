@@ -432,3 +432,40 @@ print(person_intance.age)
 Classes define how the objects belonging to this class act. The class can have: methods that are like functions that can be called through the objects of a class and attributes that are values ​​that the classes have, for example, for the person class an attribute could be the name, age, etc. Objects are created from classes as if the classes were a kind of mold. From the objects, operations can be performed with the methods and attributes of the classes to which these objects belong.
 
 
+#### 6.2-Subclasses and inheritance
+
+In addition to classes, there are subclasses that inherit behavior from the classes to which they belong.
+
+#### Example
+
+```python
+class  person: 
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def say_name(self):
+        return(f"Hello i am {self.name}")
+
+person_intance = person("example_name", 26)
+
+
+class  student(person): 
+    
+    def __init__(self, college_degree, year, age, name):
+        self.name = name
+        self.age = age
+        self.college_degree = college_degree
+        self.year = year
+    
+    def say_that_he_studies(self):
+        return(f"I am in {self.year} of {self.college_degree}")
+
+student_intance = student("programing", 1, 25, "student_name")
+print(student_intance.say_name())
+print(student_intance.say_that_he_studies())
+```
+
+Subclasses inherit both attributes and methods. As seen in the example, subclasses can have their own attributes and methods, in addition to those of the class from which they inherit, and from an object of a subclass, both the methods of the subclass and of the class from which it inherits can be used.
+
